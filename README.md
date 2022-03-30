@@ -2,6 +2,14 @@
 
 Simple library of essential javascript functions.
 
+## Usage
+
+Fork and clone this repo into your project, or link to it directly in your html.
+
+```html
+<script src='https://cdn.jsdelivr.net/gh/sarahRosannaBusch/f.js/f.js'></script>
+```
+
 ## DOM
 ```javascript
 f.html.getElem(query, parent); //returns the element, parent param optional
