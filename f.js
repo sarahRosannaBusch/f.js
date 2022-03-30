@@ -1,9 +1,13 @@
 'use strict';
-/// @filename   f.js
-/// @brief      javascript essentials
-/// @author     Sarah Rosanna Busch
-/// @version    1.0
-/// @date       29 March 2022
+
+/**
+ * @filename   f.js
+ * @brief      javascript essentials
+ * @author     Sarah Rosanna Busch
+ * @version    1.0
+ * @date       29 March 2022
+ */
+
 
 var f = (function(){
     var that = {};
