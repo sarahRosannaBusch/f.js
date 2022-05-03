@@ -20,6 +20,6 @@ f.html.empty(elem); //removes all children of elem from dom
 
 ## AJAX
 ```javascript
-f.http.get(file, callback); //once file data is rx'd, it is passed to callback
-f.http.post(file, data); //sends post req
+f.ajax.get(file, callback); //once file data is rx'd, it is passed to callback
+f.ajax.post(file, data); //sends post req
 ```

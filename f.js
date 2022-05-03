@@ -4,8 +4,10 @@
  * @filename   f.js
  * @brief      javascript essentials
  * @author     Sarah Rosanna Busch
- * @version    1.0
- * @date       29 March 2022
+ * @version    1.1
+ * @date       3 May 2022
+ * @license    MIT License
+ * @repo       https://github.com/sarahRosannaBusch/f.js
  */
 
 
@@ -44,7 +46,7 @@ var f = (function(){
         return that;
     }());
 
-    that.http = (function(){
+    that.ajax = (function(){
         var that = {};
 
         that.get = function(file, callback) {
